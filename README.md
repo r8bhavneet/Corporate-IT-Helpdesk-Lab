@@ -156,7 +156,6 @@ Common helpdesk requests were practised against the live domain, both in Active 
 |---|---|
 | "I'm locked out of my computer" | Found the locked account and unlocked it |
 | "I forgot my password" | Set a temporary password and required a change at next sign-in |
-| Employee departure | Disabled the account, removed group memberships, and moved it to Disabled Users |
 
 **Example: account lockout.** Five incorrect passwords for Jordan Lee triggered the lockout policy on CLIENT01. On DC01, the locked account was identified with `Search-ADAccount -LockedOut` and then unlocked.
 
