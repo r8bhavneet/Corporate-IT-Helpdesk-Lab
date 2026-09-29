@@ -165,28 +165,6 @@ Common helpdesk requests were practised against the live domain, both in Active 
 
 ![Search-ADAccount on DC01 identifying the locked-out account](docs/screenshots/phase1/08-locked-out-account-search.png)
 
----
-
-## Phase 4: Ticketing and asset management
-
-*In progress.* GLPI deployed with Docker on Ubuntu Server, authenticating users against Active Directory over LDAP, with ITIL ticket categories, business-hours SLAs, automatic ticket routing, automatic hardware and software inventory with GLPI Agent, and a knowledge base built from resolved tickets.
-
-## Phase 5: Automation
-
-*Planned.* Automated onboarding and offboarding workflows building on the Phase 1 environment.
-
----
-
-## Repository structure
-
-```
-corporate-it-helpdesk-lab/
-├── README.md
-└── docs/
-    └── screenshots/
-        └── phase1/                 Screenshots referenced in this README
-```
-
 ## Notes
 
 Contoso Labs is a fictional company and all user data is made up. The lab runs on an isolated VirtualBox NAT network using Microsoft evaluation software. No passwords, secrets, or tenant identifiers are stored in this repository.
